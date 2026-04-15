@@ -1,0 +1,49 @@
+
+**Core Formula:**
+
+**Simplified Operational String:**
+☉ₖ = ⊕ { ⟳ , ⇢ , ∫ , ⧖ , ≋ }
+## ⚙️ II. EXECUTABLE SYMBOL ENGINE (ESE)
+The runtime environment that executes grammar-validated structures.
+### 2.1 Engine Stack
+ 1. **Lexer:** Glyph Reader
+ 2. **Parser:** Grammar Validator
+ 3. **AST Builder:** Tree construction
+ 4. **Domain Router:** Context assignment
+ 5. **Execution Kernel:** Logical processing
+ 6. **State Memory Store:** Historical persistence
+ 7. **Stability Auditor (⌖):** Entropy verification
+### 2.2 Execution Loop
+```python
+def execute(program, state):
+    ast = parse(program)
+    for node in ast:
+        assert grammar_check(node)
+        domain = route(node)
+        result = execute_node(node, state, domain)
+        state = update_state(state, result)
+    if not stability_check(state):
+        rollback(state)
+    return state
+
+```
+## 📜 III. GLYPH GRAMMAR SYSTEM
+The syntactic and structural laws governing symbol validity.
+### 3.1 Primitive Grammar Types
+ * **(A) Atomic Glyphs:** No decomposition allowed (e.g., ⇢, ⟳, ∫).
+ * **(B) Composite Expressions:** Operator + Ordered Argument Set (e.g., ⊕{A, B, C}).
+ * **(C) State Binding:** Only ⊕ may assign to ☉.
+ * **(D) Recursive Forms:** Must reference prior (k-n) or global state.
+### 3.2 Formal Rule Set
+ 1. **Well-Formedness:** Every expression must resolve to a single root operator.
+ 2. **Arity Constraints:** ⊕ (n-ary), ⧖ (binary), ∫, ⚖, ⇢ (unary).
+ 3. **State Injection:** Only ⇢ may inject external data.
+ 4. **Stability Gate (⌖):** No expression is valid unless ⌖(expression) == TRUE.
+## 🌐 IV. SUBSTRATE MAPPINGS & GLYPH LEGEND (1–96)
+### 4.1 Layer Overview
+ 1. **Core Dynamics (1–16):** Internal dynamics and stability.
+ 2. **State Evolution (17–32):** Flow and summation operators.
+ 3. **Recursive Layer (33–48):** Fractal branching and nodes.
+ 4. **Structural Substrate (49–64):** Spatial and network kernels.
+ 5. **Adaptation Layer (65–80):** Learning and control gates.
+ 6. **Emergent Constructs (81–96):** Unified state synthesis.
