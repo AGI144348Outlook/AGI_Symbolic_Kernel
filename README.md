@@ -22,9 +22,16 @@ Unified AGI Symbolic Kernel (96-Symbol Substrate)
 ​∫↺ Memory / History
 ​⧖ Coupling / Network Interactions
 ​≋ Noise / Stochasticity
-​(Refer to the full Text file in this repo for symbols 6–96)
+​(Refer to [docs/core-information.md](docs/core-information.md) for the full symbol list, 6–96)
+
+📂 Repository Contents
+​- [docs/core-information.md](docs/core-information.md) — the full Core Dynamics reference: the executable symbol engine, the glyph grammar system, and the complete 96-symbol substrate legend.
+​- [docs/graphical-information.md](docs/graphical-information.md) — the condensed graphical reference for the core formula, execution loop, and grammar rule set.
+​- [Screenshot_20260415-153001~2.png](Screenshot_20260415-153001~2.png) — a reference screenshot of the kernel/substrate in use.
+
 ​⚖️ License & Royalties
 ​This work is licensed under the Business Source License 1.1 (BUSL-1.1).
 ​Non-Commercial Use: Free for research, education, and personal projects.
 ​Commercial Use: Requires a 5% gross revenue royalty payable to the Architect.
 ​Provenance: Ownership and commercial rights are anchored on-chain via the Zora Master Architecture NFT.
+​See [LICENCE.md](LICENCE.md) for the full license text.
