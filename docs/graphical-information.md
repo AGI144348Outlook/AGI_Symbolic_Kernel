@@ -1,3 +1,6 @@
+# Graphical Information
+
+> Moved from the repository root file `Graphical_Informatuon` (typo in original filename) to `docs/graphical-information.md` as part of a repo structure cleanup. Content is preserved verbatim from the original file; only the filename typo has been corrected.
 
 **Core Formula:**
 
