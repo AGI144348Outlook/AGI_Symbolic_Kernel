@@ -1,0 +1,27 @@
+{
+  "schema": "contract000.branch-map.v1",
+  "repository": "AGI144348Outlook/AGI_Symbolic_Kernel",
+  "source_snapshot_date": "2026-11-15",
+  "maintenance_branch": "main",
+  "excluded_root": "Contract000_Audit",
+  "branches": [
+    {
+      "id": 0,
+      "name": "claude/github-claude-code-connection-98qkbx",
+      "folder": "claude%2Fgithub-claude-code-connection-98qkbx",
+      "source_commit": "37a5a7f6c1cb1d44860a959f2e32032bda070ab9",
+      "source_tree": "37a5a7f6c1cb1d44860a959f2e32032bda070ab9",
+      "entry": "claude%2Fgithub-claude-code-connection-98qkbx/protocols/Contract_ReadMe/Contract000_readme.md",
+      "next_branch_id": 1
+    },
+    {
+      "id": 1,
+      "name": "main",
+      "folder": "main",
+      "source_commit": "7266e45cfffc1b8d688d246e98184f2daca2b2b8",
+      "source_tree": "7266e45cfffc1b8d688d246e98184f2daca2b2b8",
+      "entry": "main/protocols/Contract_ReadMe/Contract000_readme.md",
+      "next_branch_id": 0
+    }
+  ]
+}
