@@ -1,15 +1,50 @@
 {
   "schema": "contract000.audit-checkpoint.v1",
   "repository": "AGI144348Outlook/AGI_Symbolic_Kernel",
-  "represented_branch": "RESOLVE_FROM_PARENT_BRANCH_FOLDER",
+  "represented_branch": "claude/github-claude-code-connection-98qkbx",
+  "source_commit": "37a5a7f6c1cb1d44860a959f2e32032bda070ab9",
   "category": "protocols",
-  "phase": "VERIFY_DIRECTORY",
-  "directory_status": "GENERATED_FROM_PINNED_GITHUB_TREES",
-  "content_status": "NOT_AUDITED",
-  "last_completed_file": null,
-  "within_file_position": null,
-  "findings": [],
+  "phase": "READ_SOURCE_FILES",
+  "directory_status": "VERIFIED_PINNED_AND_CURRENT_2026-11-15",
+  "directory_verification": {
+    "branches": 2,
+    "distinct_source_files": 8,
+    "folders": 1,
+    "truncated": false,
+    "current_main_nonmaintenance_matches_pinned": true
+  },
+  "content_status": "PARTIAL",
+  "last_completed_file": "LICENCE.md",
+  "within_file_position": "EOF",
+  "readings": [
+    {
+      "path": ".gitignore",
+      "blob": "1798919542fe4241088254d03b0933a919d7c6bb",
+      "status": "READ_NO_FINDINGS",
+      "position": "EOF"
+    },
+    {
+      "path": "LICENCE.md",
+      "blob": "9507bfe627f80f1ac54594f0f6a3e80aa746447e",
+      "status": "READ_WITH_FINDINGS",
+      "position": "EOF",
+      "findings": [
+        "AGISK-PROT-001"
+      ]
+    }
+  ],
+  "next_file": "README.md",
+  "remaining_files": [
+    "README.md",
+    "Screenshot_20260415-153001~2.png",
+    "docs/core-information.md",
+    "docs/graphical-information.md"
+  ],
+  "findings": [
+    "AGISK-PROT-001"
+  ],
   "blockers": [],
   "next_directory": "../../skills/Contract_ReadMe/Contract000_readme.md",
-  "updated": "2026-11-15"
+  "updated": "2026-11-15",
+  "run_slot": "2026-11-15T22:00:00-06:00"
 }
