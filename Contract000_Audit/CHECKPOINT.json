@@ -4,8 +4,17 @@
   "branch_index": 0,
   "category_index": 0,
   "next_directory": "claude%2Fgithub-claude-code-connection-98qkbx/protocols/Contract_ReadMe/Contract000_readme.md",
-  "directory_status": "GENERATED_FROM_PINNED_GITHUB_TREES",
-  "content_status": "NOT_AUDITED",
-  "last_run_id": null,
-  "updated": "2026-11-15"
+  "directory_status": "VERIFIED_PINNED_AND_CURRENT_TREES",
+  "content_status": "PARTIAL",
+  "last_run_id": "hourly-slot-2026-11-15T22:00-06:00 (scheduler UUID unavailable)",
+  "updated": "2026-11-15",
+  "current_category": "protocols",
+  "current_branch": "claude/github-claude-code-connection-98qkbx",
+  "last_completed_file": "LICENCE.md",
+  "next_file": "README.md",
+  "read_files": 2,
+  "total_files_on_branch": 6,
+  "findings": [
+    "AGISK-PROT-001"
+  ]
 }
